@@ -73,8 +73,8 @@ return decryptedText
 }
 
 
-//const plainText = "Hola mundo encriptado!";
-const plainText = "Chau mundo encriptado!";
+const plainText = "Hola mundo encriptado!";
+//const plainText = "Chau mundo encriptado!";
 const encrypted_base64 = await encrypt(plainText)
 console.log("Encrypted data",encrypted_base64);
 const decryptedText = await decrypt(encrypted_base64)
